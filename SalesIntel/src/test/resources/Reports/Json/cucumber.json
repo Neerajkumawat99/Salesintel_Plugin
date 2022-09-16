@@ -1,0 +1,1272 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-15T11:42:27.366Z",
+        "line": 4,
+        "name": "To validate application login page with Indian Region functionality",
+        "description": "",
+        "id": "validate-application-login-page-with-various-region;to-validate-application-login-page-with-indian-region-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10533768900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the url with Indian Region",
+            "match": {
+              "location": "Steps.launch_the_url_with_Indian_Region()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11504906300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Chrome Extensions",
+            "match": {
+              "location": "Steps.click_on_Chrome_Extensions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6152262700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Pin From Chrome Extensions",
+            "match": {
+              "location": "Steps.click_on_Pin_From_Chrome_Extensions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6160966900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on RevDriver by SalesIntel",
+            "match": {
+              "location": "Steps.click_on_RevDriver_by_SalesIntel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5085141800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Switch To Frame with Indian Region",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_Indian_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84790100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter the UserName with Indian Region",
+            "match": {
+              "location": "Steps.enter_the_UserName_with_Indian_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63164700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter the Password with Indian Region",
+            "match": {
+              "location": "Steps.enter_the_Password_with_Indian_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7461722900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on Login CTA with Indian Region",
+            "match": {
+              "location": "Steps.click_on_Login_CTA_with_Indian_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5186024800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Close the Browser with Indian Region",
+            "match": {
+              "location": "Steps.close_the_Browser_with_Indian_Region()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-15T11:43:19.602Z",
+        "line": 17,
+        "name": "To validate application login page with US Region functionality",
+        "description": "",
+        "id": "validate-application-login-page-with-various-region;to-validate-application-login-page-with-us-region-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24847478900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Launch the url with US Region",
+            "match": {
+              "location": "Steps.launch_the_url_with_US_Region()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11157775100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click on Chrome Extensions",
+            "match": {
+              "location": "Steps.click_on_Chrome_Extensions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6185238200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click on Pin From Chrome Extensions",
+            "match": {
+              "location": "Steps.click_on_Pin_From_Chrome_Extensions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6112148000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click on RevDriver by SalesIntel",
+            "match": {
+              "location": "Steps.click_on_RevDriver_by_SalesIntel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5047213400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Switch To Frame with US Region",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67895600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Enter the UserName with US Region",
+            "match": {
+              "location": "Steps.enter_the_UserName_with_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59099600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Enter the Password with US Region",
+            "match": {
+              "location": "Steps.enter_the_Password_with_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7177190000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Click on Login CTA with US Region",
+            "match": {
+              "location": "Steps.click_on_Login_CTA_with_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5182610200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Close the Browser with US Region",
+            "match": {
+              "location": "Steps.close_the_Browser_with_US_Region()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-15T11:44:25.442Z",
+        "line": 30,
+        "name": "To validate application login page with UK Region functionality",
+        "description": "",
+        "id": "validate-application-login-page-with-various-region;to-validate-application-login-page-with-uk-region-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13262138200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Launch the url with UK Region",
+            "match": {
+              "location": "Steps.launch_the_url_with_UK_Region()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11148577600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click on Chrome Extensions",
+            "match": {
+              "location": "Steps.click_on_Chrome_Extensions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6088666600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click on Pin From Chrome Extensions",
+            "match": {
+              "location": "Steps.click_on_Pin_From_Chrome_Extensions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6079564900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click on RevDriver by SalesIntel",
+            "match": {
+              "location": "Steps.click_on_RevDriver_by_SalesIntel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5048340400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Switch To Frame with UK Region",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_UK_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69614500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Enter the UserName with UK Region",
+            "match": {
+              "location": "Steps.enter_the_UserName_with_UK_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57122600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Enter the Password with UK Region",
+            "match": {
+              "location": "Steps.enter_the_Password_with_UK_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7176505600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Click on Login CTA with UK Region",
+            "match": {
+              "location": "Steps.click_on_Login_CTA_with_UK_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5206552800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Close the Browser with UK Region",
+            "match": {
+              "location": "Steps.close_the_Browser_with_UK_Region()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      }
+    ],
+    "name": "Validate application login Page with various Region",
+    "description": "",
+    "id": "validate-application-login-page-with-various-region",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/TC01_Login_Feature_With_Various_Region.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-15T11:45:19.584Z",
+        "line": 4,
+        "name": "To validate application login page functionality",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-application-login-page-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21175807100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the url",
+            "match": {
+              "location": "Steps.launch_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11059359200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Chrome Extensions",
+            "match": {
+              "location": "Steps.click_on_Chrome_Extensions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6106401400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Pin From Chrome Extensions",
+            "match": {
+              "location": "Steps.click_on_Pin_From_Chrome_Extensions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6249480100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on RevDriver by SalesIntel",
+            "match": {
+              "location": "Steps.click_on_RevDriver_by_SalesIntel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5055165400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Switch To Frame",
+            "match": {
+              "location": "Steps.switch_To_Frame()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68028500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter the UserName",
+            "match": {
+              "location": "Steps.enter_the_UserName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55812700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter the Password",
+            "match": {
+              "location": "Steps.enter_the_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7365874500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on Login CTA",
+            "match": {
+              "location": "Steps.click_on_Login_CTA()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-15T11:46:16.721Z",
+        "line": 16,
+        "name": "To validate application 1st Contact\u0027s Name functionality",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-application-1st-contact-s-name-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 128522600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on Filter Button",
+            "match": {
+              "location": "Steps.click_on_Filter_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130447100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click on Contacts Email Button",
+            "match": {
+              "location": "Steps.click_on_Contacts_Email_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128826600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Enter the Firstname",
+            "match": {
+              "location": "Steps.enter_the_Firstname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137417000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Enter the Lastname",
+            "match": {
+              "location": "Steps.enter_the_Lastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117211500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "Steps.click_on_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20051565500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click on Reveal Button",
+            "match": {
+              "location": "Steps.click_on_Reveal_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107711000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click on Cancel Button",
+            "match": {
+              "location": "Steps.click_on_Cancel_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20041503900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Wait Till Page Load To Display Select All Data",
+            "match": {
+              "location": "Steps.wait_Till_Page_Load_To_Display_Select_All_Data()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-15T11:46:57.566Z",
+        "line": 27,
+        "name": "To validate application 2nd Contact\u0027s Name functionality",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-application-2nd-contact-s-name-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 128490500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Click on Filter Button",
+            "match": {
+              "location": "Steps.click_on_Filter_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118056100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click on Contacts Email Button",
+            "match": {
+              "location": "Steps.click_on_Contacts_Email_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116425200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Enter the 2nd Contacts Firstname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.enter_the_nd_Contacts_Firstname(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127145400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Enter the 2nd Contacts Lastname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.enter_the_nd_Contacts_Lastname(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105524500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "Steps.click_on_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20063034500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click on Reveal Button",
+            "match": {
+              "location": "Steps.click_on_Reveal_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101584200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click on Cancel Button",
+            "match": {
+              "location": "Steps.click_on_Cancel_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20040259300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Wait Till Page Load To Display Select All Data",
+            "match": {
+              "location": "Steps.wait_Till_Page_Load_To_Display_Select_All_Data()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-15T11:47:38.367Z",
+        "line": 38,
+        "name": "To validate application 1st Contact\u0027s Email functionality",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-application-1st-contact-s-email-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 135469700,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Click on Filter Button",
+            "match": {
+              "location": "Steps.click_on_Filter_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142016600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Click on Contacts Name Email Button",
+            "match": {
+              "location": "Steps.click_on_Contacts_Name_Email_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155161300,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Enter the 1st Contacts Email Address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.enter_the_st_Contacts_Email_Address(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100297100,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "Steps.click_on_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20015157400,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Click on Reveal Button",
+            "match": {
+              "location": "Steps.click_on_Reveal_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115761700,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Click on Cancel Button",
+            "match": {
+              "location": "Steps.click_on_Cancel_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20035444900,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Wait Till Page Load To Display Select All Data",
+            "match": {
+              "location": "Steps.wait_Till_Page_Load_To_Display_Select_All_Data()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-15T11:48:19.067Z",
+        "line": 48,
+        "name": "To validate application 2nd Contact\u0027s Email functionality",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-application-2nd-contact-s-email-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 130157800,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Click on Filter Button",
+            "match": {
+              "location": "Steps.click_on_Filter_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117798500,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Click on Contacts Name Email Button",
+            "match": {
+              "location": "Steps.click_on_Contacts_Name_Email_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152199700,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Enter the 2nd Contacts Email Address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.enter_the_nd_Contacts_Email_Address(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130005000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "Steps.click_on_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20020654800,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Click on Reveal Button",
+            "match": {
+              "location": "Steps.click_on_Reveal_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88922800,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Click on Cancel Button",
+            "match": {
+              "location": "Steps.click_on_Cancel_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20012242300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Wait Till Page Load To Display Select All Data",
+            "match": {
+              "location": "Steps.wait_Till_Page_Load_To_Display_Select_All_Data()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-15T11:48:59.720Z",
+        "line": 58,
+        "name": "To validate application Job Level functionality",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-application-job-level-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 115590900,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Click on Filter Button",
+            "match": {
+              "location": "Steps.click_on_Filter_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1142085300,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "Click on Job Level Button",
+            "match": {
+              "location": "Steps.click_on_Job_Level_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7140780800,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Select All Checkbox Option in Job Level",
+            "match": {
+              "location": "Steps.select_All_Checkbox_Option_in_Job_Level()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85483800,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "Steps.click_on_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2708047700,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Click on Cancel Button",
+            "match": {
+              "location": "Steps.click_on_Cancel_Button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-15T11:49:10.913Z",
+        "line": 68,
+        "name": "To validate application Job Department functionality",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-application-job-department-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10014171000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I Wait for Page Load",
+            "match": {
+              "location": "Steps.i_Wait_for_Page_Load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 113578200,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "Click on Filter Button",
+            "match": {
+              "location": "Steps.click_on_Filter_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1160074600,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Click on Job Department Button",
+            "match": {
+              "location": "Steps.click_on_Job_Department_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1153085300,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "Select All Checkbox Option in Job Department",
+            "match": {
+              "location": "Steps.select_All_Checkbox_Option_in_Job_Department()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85185300,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "Steps.click_on_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3434743100,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "Click on Cancel Button",
+            "match": {
+              "location": "Steps.click_on_Cancel_Button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-15T11:49:26.875Z",
+        "line": 79,
+        "name": "To validate application Job Title functionality",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-application-job-title-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10015196500,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "I Wait for Page Load",
+            "match": {
+              "location": "Steps.i_Wait_for_Page_Load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 96356500,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Click on Filter Button",
+            "match": {
+              "location": "Steps.click_on_Filter_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1103223100,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Click on Job Title Button",
+            "match": {
+              "location": "Steps.click_on_Job_Title_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91768400,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "Steps.click_on_Search_Button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-15T11:49:38.182Z",
+        "line": 86,
+        "name": "To validate application Job Location functionality",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-application-job-location-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2797813900,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Click on Filter Button",
+            "match": {
+              "location": "Steps.click_on_Filter_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1098864800,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Click on Job Location Button",
+            "match": {
+              "location": "Steps.click_on_Job_Location_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75227500,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "Steps.click_on_Search_Button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      }
+    ],
+    "name": "Validate application login Page",
+    "description": "",
+    "id": "validate-application-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/TC02_Login.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Salesforce Site Automation</td>
+      <td>15 Sep 2022, 17:19</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">Steps.click_on_Cancel_Button()</td>
+              <td>6</td>
+              <td class="duration" data-value="1092795083">1.092</td>
+              <td class="duration" data-value="1092795083">3.434</td>
+              <td class="duration" data-value="6556770500">6.556</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.click_on_Chrome_Extensions()</td>
+              <td>4</td>
+              <td class="duration" data-value="11217654550">11.217</td>
+              <td class="duration" data-value="11217654550">11.504</td>
+              <td class="duration" data-value="44870618200">44.870</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.click_on_Contacts_Email_Button()</td>
+              <td>2</td>
+              <td class="duration" data-value="124251600">0.124</td>
+              <td class="duration" data-value="124251600">0.130</td>
+              <td class="duration" data-value="248503200">0.248</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.click_on_Contacts_Name_Email_Button()</td>
+              <td>2</td>
+              <td class="duration" data-value="129907550">0.129</td>
+              <td class="duration" data-value="129907550">0.142</td>
+              <td class="duration" data-value="259815100">0.259</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.click_on_Filter_Button()</td>
+              <td>8</td>
+              <td class="duration" data-value="455747512">0.455</td>
+              <td class="duration" data-value="455747512">2.797</td>
+              <td class="duration" data-value="3645980100">3.645</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.click_on_Job_Department_Button()</td>
+              <td>1</td>
+              <td class="duration" data-value="1160074600">1.160</td>
+              <td class="duration" data-value="1160074600">1.160</td>
+              <td class="duration" data-value="1160074600">1.160</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.click_on_Job_Level_Button()</td>
+              <td>1</td>
+              <td class="duration" data-value="1142085300">1.142</td>
+              <td class="duration" data-value="1142085300">1.142</td>
+              <td class="duration" data-value="1142085300">1.142</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.click_on_Job_Location_Button()</td>
+              <td>1</td>
+              <td class="duration" data-value="1098864800">1.098</td>
+              <td class="duration" data-value="1098864800">1.098</td>
+              <td class="duration" data-value="1098864800">1.098</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.click_on_Job_Title_Button()</td>
+              <td>1</td>
+              <td class="duration" data-value="1103223100">1.103</td>
+              <td class="duration" data-value="1103223100">1.103</td>
+              <td class="duration" data-value="1103223100">1.103</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.click_on_Login_CTA()</td>
+              <td>1</td>
+              <td class="duration" data-value="7365874500">7.365</td>
+              <td class="duration" data-value="7365874500">7.365</td>
+              <td class="duration" data-value="7365874500">7.365</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.click_on_Login_CTA_with_Indian_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="7461722900">7.461</td>
+              <td class="duration" data-value="7461722900">7.461</td>
+              <td class="duration" data-value="7461722900">7.461</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.click_on_Login_CTA_with_UK_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="7176505600">7.176</td>
+              <td class="duration" data-value="7176505600">7.176</td>
+              <td class="duration" data-value="7176505600">7.176</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.click_on_Login_CTA_with_US_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="7177190000">7.177</td>
+              <td class="duration" data-value="7177190000">7.177</td>
+              <td class="duration" data-value="7177190000">7.177</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.click_on_Pin_From_Chrome_Extensions()</td>
+              <td>4</td>
+              <td class="duration" data-value="6133142225">6.133</td>
+              <td class="duration" data-value="6133142225">6.185</td>
+              <td class="duration" data-value="24532568900">24.532</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.click_on_RevDriver_by_SalesIntel()</td>
+              <td>4</td>
+              <td class="duration" data-value="6150539975">6.150</td>
+              <td class="duration" data-value="6150539975">6.249</td>
+              <td class="duration" data-value="24602159900">24.602</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.click_on_Reveal_Button()</td>
+              <td>4</td>
+              <td class="duration" data-value="20037603050">20.037</td>
+              <td class="duration" data-value="20037603050">20.063</td>
+              <td class="duration" data-value="80150412200">1:20.150</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.click_on_Search_Button()</td>
+              <td>8</td>
+              <td class="duration" data-value="98837887">0.098</td>
+              <td class="duration" data-value="98837887">0.130</td>
+              <td class="duration" data-value="790703100">0.790</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.close_the_Browser_with_Indian_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="5186024800">5.186</td>
+              <td class="duration" data-value="5186024800">5.186</td>
+              <td class="duration" data-value="5186024800">5.186</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.close_the_Browser_with_UK_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="5206552800">5.206</td>
+              <td class="duration" data-value="5206552800">5.206</td>
+              <td class="duration" data-value="5206552800">5.206</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.close_the_Browser_with_US_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="5182610200">5.182</td>
+              <td class="duration" data-value="5182610200">5.182</td>
+              <td class="duration" data-value="5182610200">5.182</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.enter_the_Firstname()</td>
+              <td>1</td>
+              <td class="duration" data-value="128826600">0.128</td>
+              <td class="duration" data-value="128826600">0.128</td>
+              <td class="duration" data-value="128826600">0.128</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.enter_the_Lastname()</td>
+              <td>1</td>
+              <td class="duration" data-value="137417000">0.137</td>
+              <td class="duration" data-value="137417000">0.137</td>
+              <td class="duration" data-value="137417000">0.137</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.enter_the_Password()</td>
+              <td>1</td>
+              <td class="duration" data-value="55812700">0.055</td>
+              <td class="duration" data-value="55812700">0.055</td>
+              <td class="duration" data-value="55812700">0.055</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.enter_the_Password_with_Indian_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="63164700">0.063</td>
+              <td class="duration" data-value="63164700">0.063</td>
+              <td class="duration" data-value="63164700">0.063</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.enter_the_Password_with_UK_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="57122600">0.057</td>
+              <td class="duration" data-value="57122600">0.057</td>
+              <td class="duration" data-value="57122600">0.057</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.enter_the_Password_with_US_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="59099600">0.059</td>
+              <td class="duration" data-value="59099600">0.059</td>
+              <td class="duration" data-value="59099600">0.059</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.enter_the_UserName()</td>
+              <td>1</td>
+              <td class="duration" data-value="68028500">0.068</td>
+              <td class="duration" data-value="68028500">0.068</td>
+              <td class="duration" data-value="68028500">0.068</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.enter_the_UserName_with_Indian_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="84790100">0.084</td>
+              <td class="duration" data-value="84790100">0.084</td>
+              <td class="duration" data-value="84790100">0.084</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.enter_the_UserName_with_UK_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="69614500">0.069</td>
+              <td class="duration" data-value="69614500">0.069</td>
+              <td class="duration" data-value="69614500">0.069</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.enter_the_UserName_with_US_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="67895600">0.067</td>
+              <td class="duration" data-value="67895600">0.067</td>
+              <td class="duration" data-value="67895600">0.067</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.enter_the_nd_Contacts_Email_Address(Integer)</td>
+              <td>1</td>
+              <td class="duration" data-value="152199700">0.152</td>
+              <td class="duration" data-value="152199700">0.152</td>
+              <td class="duration" data-value="152199700">0.152</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.enter_the_nd_Contacts_Firstname(Integer)</td>
+              <td>1</td>
+              <td class="duration" data-value="116425200">0.116</td>
+              <td class="duration" data-value="116425200">0.116</td>
+              <td class="duration" data-value="116425200">0.116</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.enter_the_nd_Contacts_Lastname(Integer)</td>
+              <td>1</td>
+              <td class="duration" data-value="127145400">0.127</td>
+              <td class="duration" data-value="127145400">0.127</td>
+              <td class="duration" data-value="127145400">0.127</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.enter_the_st_Contacts_Email_Address(Integer)</td>
+              <td>1</td>
+              <td class="duration" data-value="155161300">0.155</td>
+              <td class="duration" data-value="155161300">0.155</td>
+              <td class="duration" data-value="155161300">0.155</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.i_Wait_for_Page_Load()</td>
+              <td>2</td>
+              <td class="duration" data-value="10014683750">10.014</td>
+              <td class="duration" data-value="10014683750">10.015</td>
+              <td class="duration" data-value="20029367500">20.029</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.launch_the_url()</td>
+              <td>1</td>
+              <td class="duration" data-value="21175807100">21.175</td>
+              <td class="duration" data-value="21175807100">21.175</td>
+              <td class="duration" data-value="21175807100">21.175</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.launch_the_url_with_Indian_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="10533768900">10.533</td>
+              <td class="duration" data-value="10533768900">10.533</td>
+              <td class="duration" data-value="10533768900">10.533</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.launch_the_url_with_UK_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="13262138200">13.262</td>
+              <td class="duration" data-value="13262138200">13.262</td>
+              <td class="duration" data-value="13262138200">13.262</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.launch_the_url_with_US_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="24847478900">24.847</td>
+              <td class="duration" data-value="24847478900">24.847</td>
+              <td class="duration" data-value="24847478900">24.847</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.select_All_Checkbox_Option_in_Job_Department()</td>
+              <td>1</td>
+              <td class="duration" data-value="1153085300">1.153</td>
+              <td class="duration" data-value="1153085300">1.153</td>
+              <td class="duration" data-value="1153085300">1.153</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.select_All_Checkbox_Option_in_Job_Level()</td>
+              <td>1</td>
+              <td class="duration" data-value="7140780800">7.140</td>
+              <td class="duration" data-value="7140780800">7.140</td>
+              <td class="duration" data-value="7140780800">7.140</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.switch_To_Frame()</td>
+              <td>1</td>
+              <td class="duration" data-value="5055165400">5.055</td>
+              <td class="duration" data-value="5055165400">5.055</td>
+              <td class="duration" data-value="5055165400">5.055</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.switch_To_Frame_with_Indian_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="5085141800">5.085</td>
+              <td class="duration" data-value="5085141800">5.085</td>
+              <td class="duration" data-value="5085141800">5.085</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.switch_To_Frame_with_UK_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="5048340400">5.048</td>
+              <td class="duration" data-value="5048340400">5.048</td>
+              <td class="duration" data-value="5048340400">5.048</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.switch_To_Frame_with_US_Region()</td>
+              <td>1</td>
+              <td class="duration" data-value="5047213400">5.047</td>
+              <td class="duration" data-value="5047213400">5.047</td>
+              <td class="duration" data-value="5047213400">5.047</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Steps.wait_Till_Page_Load_To_Display_Select_All_Data()</td>
+              <td>4</td>
+              <td class="duration" data-value="20032362600">20.032</td>
+              <td class="duration" data-value="20032362600">20.041</td>
+              <td class="duration" data-value="80129450400">1:20.129</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>46</td>
+            <td>83</td>
+            <td class="duration">5.238</td>
+            <td class="duration">1:20.150</td>
+            <td class="duration">7:14.768</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

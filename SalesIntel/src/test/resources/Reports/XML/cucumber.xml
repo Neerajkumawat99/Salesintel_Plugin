@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="12" time="434.771626">
+    <testcase classname="Validate application login Page with various Region" name="To validate application login page with Indian Region functionality" time="52.233687">
+        <system-out><![CDATA[Given Launch the url with Indian Region.....................................passed
+When Click on Chrome Extensions.............................................passed
+And Click on Pin From Chrome Extensions.....................................passed
+And Click on RevDriver by SalesIntel........................................passed
+And Switch To Frame with Indian Region......................................passed
+And Enter the UserName with Indian Region...................................passed
+And Enter the Password with Indian Region...................................passed
+And Click on Login CTA with Indian Region...................................passed
+And Close the Browser with Indian Region....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page with various Region" name="To validate application login page with US Region functionality" time="65.83696">
+        <system-out><![CDATA[Given Launch the url with US Region.........................................passed
+When Click on Chrome Extensions.............................................passed
+And Click on Pin From Chrome Extensions.....................................passed
+And Click on RevDriver by SalesIntel........................................passed
+And Switch To Frame with US Region..........................................passed
+And Enter the UserName with US Region.......................................passed
+And Enter the Password with US Region.......................................passed
+And Click on Login CTA with US Region.......................................passed
+And Close the Browser with US Region........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page with various Region" name="To validate application login page with UK Region functionality" time="54.137295">
+        <system-out><![CDATA[Given Launch the url with UK Region.........................................passed
+When Click on Chrome Extensions.............................................passed
+And Click on Pin From Chrome Extensions.....................................passed
+And Click on RevDriver by SalesIntel........................................passed
+And Switch To Frame with UK Region..........................................passed
+And Enter the UserName with UK Region.......................................passed
+And Enter the Password with UK Region.......................................passed
+And Click on Login CTA with UK Region.......................................passed
+And Close the Browser with UK Region........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate application login page functionality" time="57.13619">
+        <system-out><![CDATA[Given Launch the url........................................................passed
+When Click on Chrome Extensions.............................................passed
+And Click on Pin From Chrome Extensions.....................................passed
+And Click on RevDriver by SalesIntel........................................passed
+And Switch To Frame.........................................................passed
+And Enter the UserName......................................................passed
+And Enter the Password......................................................passed
+And Click on Login CTA......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate application 1st Contact's Name functionality" time="40.843448">
+        <system-out><![CDATA[When Click on Filter Button.................................................passed
+And Click on Contacts Email Button..........................................passed
+And Enter the Firstname.....................................................passed
+And Enter the Lastname......................................................passed
+And Click on Search Button..................................................passed
+And Click on Reveal Button..................................................passed
+And Click on Cancel Button..................................................passed
+And Wait Till Page Load To Display Select All Data..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate application 2nd Contact's Name functionality" time="40.800672">
+        <system-out><![CDATA[When Click on Filter Button.................................................passed
+And Click on Contacts Email Button..........................................passed
+And Enter the 2nd Contacts Firstname........................................passed
+And Enter the 2nd Contacts Lastname.........................................passed
+And Click on Search Button..................................................passed
+And Click on Reveal Button..................................................passed
+And Click on Cancel Button..................................................passed
+And Wait Till Page Load To Display Select All Data..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate application 1st Contact's Email functionality" time="40.699443">
+        <system-out><![CDATA[When Click on Filter Button.................................................passed
+And Click on Contacts Name Email Button.....................................passed
+And Enter the 1st Contacts Email Address....................................passed
+And Click on Search Button..................................................passed
+And Click on Reveal Button..................................................passed
+And Click on Cancel Button..................................................passed
+And Wait Till Page Load To Display Select All Data..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate application 2nd Contact's Email functionality" time="40.652107">
+        <system-out><![CDATA[When Click on Filter Button.................................................passed
+And Click on Contacts Name Email Button.....................................passed
+And Enter the 2nd Contacts Email Address....................................passed
+And Click on Search Button..................................................passed
+And Click on Reveal Button..................................................passed
+And Click on Cancel Button..................................................passed
+And Wait Till Page Load To Display Select All Data..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate application Job Level functionality" time="11.192126">
+        <system-out><![CDATA[When Click on Filter Button.................................................passed
+And Click on Job Level Button...............................................passed
+And Select All Checkbox Option in Job Level.................................passed
+And Click on Search Button..................................................passed
+And Click on Cancel Button..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate application Job Department functionality" time="15.961047">
+        <system-out><![CDATA[Then I Wait for Page Load...................................................passed
+When Click on Filter Button.................................................passed
+And Click on Job Department Button..........................................passed
+And Select All Checkbox Option in Job Department............................passed
+And Click on Search Button..................................................passed
+And Click on Cancel Button..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate application Job Title functionality" time="11.306651">
+        <system-out><![CDATA[Then I Wait for Page Load...................................................passed
+When Click on Filter Button.................................................passed
+And Click on Job Title Button...............................................passed
+And Click on Search Button..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate application Job Location functionality" time="3.972">
+        <system-out><![CDATA[When Click on Filter Button.................................................passed
+And Click on Job Location Button............................................passed
+And Click on Search Button..................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
